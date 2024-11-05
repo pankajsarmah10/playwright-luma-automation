@@ -425,3 +425,15 @@ Call log:
 2024-11-05T11:34:56+04:00 [info]: Test for Contact creation is completed
 2024-11-05T11:34:56+04:00 [info]: New contact created and Jenny Doe is visible
 2024-11-05T11:34:56+04:00 [info]: Test for Contact creation is completed
+2024-11-05T11:55:14+04:00 [info]: Test test login Started
+2024-11-05T11:55:16+04:00 [info]: Navigated to Login page
+2024-11-05T11:55:16+04:00 [info]: Filled username
+2024-11-05T11:56:07+04:00 [info]: Test test login Started
+2024-11-05T11:56:09+04:00 [info]: Navigated to Login page
+2024-11-05T11:56:09+04:00 [info]: Filled username
+2024-11-05T11:56:39+04:00 [info]: Test test login Started
+2024-11-05T11:56:40+04:00 [info]: Navigated to Login page
+2024-11-05T11:56:40+04:00 [info]: Filled username
+2024-11-05T11:57:12+04:00 [info]: Test test login Started
+2024-11-05T11:57:14+04:00 [info]: Navigated to Login page
+2024-11-05T11:57:14+04:00 [info]: Filled username
