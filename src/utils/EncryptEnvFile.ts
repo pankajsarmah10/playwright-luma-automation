@@ -1,3 +1,5 @@
+import logger from "./LoggerUtils";
+
 let CryptoJSUtil = require("crypto-js");
 let fs = require("fs");
 let path = require("path");
@@ -30,8 +32,7 @@ export function encryptEnvFile() {
 
     const updatedEnvContent = encryptedLines.join('\n');
     fs.writeFileSync(envFilePath, updatedEnvContent, 'utf-8');
-    console.log('Encryption completed. Updated .env file');
-    
+    logger.info('Encryption completed. Updated .env file');        
 }
 
 export function decryptEnvFile() {
@@ -49,6 +50,6 @@ export function decryptEnvFile() {
 
     const updatedEnvContent = decryptedLines.join('\n');
     fs.writeFileSync(envFilePath, updatedEnvContent, 'utf-8');
-    console.log('Decryption completed.');
+    logger.info('Decryption completed.');
 }
 

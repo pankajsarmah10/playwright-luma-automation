@@ -1,0 +1,97 @@
+2024-10-30T13:37:25+04:00 [error]: Home page welcome does not exist: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m()[22m
+
+Locator: locator('.verticalNavMenuListItem .appItemLabel').filter({ hasText: 'Service' })
+Expected: visible
+Received: <element(s) not found>
+Call log:
+  [2m- expect.toBeVisible with timeout 15000ms[22m
+[2m  - waiting for locator('.verticalNavMenuListItem .appItemLabel').filter({ hasText: 'Service' })[22m
+
+2024-10-30T13:40:53+04:00 [error]: Home page welcome does not exist: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m()[22m
+
+Locator: locator('.verticalNavMenuListItem .appItemLabel').filter({ hasText: 'Service' })
+Expected: visible
+Received: <element(s) not found>
+Call log:
+  [2m- expect.toBeVisible with timeout 15000ms[22m
+[2m  - waiting for locator('.verticalNavMenuListItem .appItemLabel').filter({ hasText: 'Service' })[22m
+
+2024-10-30T13:45:01+04:00 [error]: Home page welcome does not exist: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m()[22m
+
+Locator: getByTitle('Service')
+Expected: visible
+Received: <element(s) not found>
+Call log:
+  [2m- expect.toBeVisible with timeout 15000ms[22m
+[2m  - waiting for getByTitle('Service')[22m
+
+2024-10-30T13:48:15+04:00 [error]: Service Title not exist: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m()[22m
+
+Locator: getByTitle('Service')
+Expected: visible
+Received: <element(s) not found>
+Call log:
+  [2m- expect.toBeVisible with timeout 15000ms[22m
+[2m  - waiting for getByTitle('Service')[22m
+
+2024-10-30T13:51:53+04:00 [error]: Service Title not exist: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m()[22m
+
+Locator: getByTitle('Service')
+Expected: visible
+Received: <element(s) not found>
+Call log:
+  [2m- expect.toBeVisible with timeout 15000ms[22m
+[2m  - waiting for getByTitle('Service')[22m
+
+2024-10-30T13:57:06+04:00 [error]: Service Title not exist: Error: expect.toBeVisible: Target page, context or browser has been closed
+2024-10-30T14:03:08+04:00 [error]: Service Title not exist: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m()[22m
+
+Locator: locator('.verticalNavMenuListItem .appItemLabel').filter({ hasText: 'Service' })
+Expected: visible
+Received: <element(s) not found>
+Call log:
+  [2m- expect.toBeVisible with timeout 15000ms[22m
+[2m  - waiting for locator('.verticalNavMenuListItem .appItemLabel').filter({ hasText: 'Service' })[22m
+
+2024-10-30T14:04:12+04:00 [error]: Service Title not exist: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m()[22m
+
+Locator: locator('.verticalNavMenuListItem .appItemLabel').filter({ hasText: 'Service' })
+Expected: visible
+Received: <element(s) not found>
+Call log:
+  [2m- expect.toBeVisible with timeout 15000ms[22m
+[2m  - waiting for locator('.verticalNavMenuListItem .appItemLabel').filter({ hasText: 'Service' })[22m
+
+2024-10-30T14:06:59+04:00 [error]: Service Title not exist: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m()[22m
+
+Locator: locator('.verticalNavMenuListItem .appItemLabel').getByText('Service')
+Expected: visible
+Received: <element(s) not found>
+Call log:
+  [2m- expect.toBeVisible with timeout 15000ms[22m
+[2m  - waiting for locator('.verticalNavMenuListItem .appItemLabel').getByText('Service')[22m
+
+2024-10-30T14:14:47+04:00 [error]: Service Title not exist: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m()[22m
+
+Locator: locator('.verticalNavMenuListItem .appItemLabel').getByText('Service')
+Expected: visible
+Received: <element(s) not found>
+Call log:
+  [2m- expect.toBeVisible with timeout 15000ms[22m
+[2m  - waiting for locator('.verticalNavMenuListItem .appItemLabel').getByText('Service')[22m
+
+2024-10-30T14:17:46+04:00 [error]: Service Title not exist: Error: expect.toBeVisible: Target page, context or browser has been closed
+2024-11-01T11:36:37+04:00 [error]: Error clicking on Save button: Error: locator.click: Error: strict mode violation: getByRole('button', { name: 'Save' }) resolved to 2 elements:
+    1) <button type="button" part="button" kx-type="ripple" name="SaveAndNew" lwc-40a585din3p="" aria-disabled="false" kx-scope="button-neutral" class="slds-button slds-button_neutral">Save & New</button> aka getByRole('button', { name: 'Save & New' })
+    2) <button type="button" part="button" name="SaveEdit" kx-type="ripple" lwc-40a585din3p="" aria-disabled="false" kx-scope="button-brand" class="slds-button slds-button_brand">Save</button> aka getByRole('button', { name: 'Save', exact: true })
+
+Call log:
+  [2m- waiting for getByRole('button', { name: 'Save' })[22m
+
+2024-11-01T11:49:16+04:00 [error]: Error clicking on Save button: Error: locator.click: Error: strict mode violation: getByRole('button', { name: 'Save' }) resolved to 2 elements:
+    1) <button type="button" part="button" kx-type="ripple" name="SaveAndNew" lwc-40a585din3p="" aria-disabled="false" kx-scope="button-neutral" class="slds-button slds-button_neutral">Save & New</button> aka getByRole('button', { name: 'Save & New' })
+    2) <button type="button" part="button" name="SaveEdit" kx-type="ripple" lwc-40a585din3p="" aria-disabled="false" kx-scope="button-brand" class="slds-button slds-button_brand">Save</button> aka getByRole('button', { name: 'Save', exact: true })
+
+Call log:
+  [2m- waiting for getByRole('button', { name: 'Save' })[22m
+

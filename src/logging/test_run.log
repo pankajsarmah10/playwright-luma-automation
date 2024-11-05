@@ -1,0 +1,427 @@
+2024-10-30T11:43:49+04:00 [info]: Navigated to Login page
+2024-10-30T11:43:49+04:00 [info]: Filled username
+2024-10-30T11:43:49+04:00 [info]: Filled password
+2024-10-30T11:43:51+04:00 [info]: Home page welcome is visible
+2024-10-30T11:44:21+04:00 [info]: Navigated to Login page
+2024-10-30T11:44:21+04:00 [info]: Filled username
+2024-10-30T11:45:10+04:00 [info]: Navigated to Login page
+2024-10-30T11:45:10+04:00 [info]: Filled username
+2024-10-30T11:45:10+04:00 [info]: Filled password
+2024-10-30T11:45:11+04:00 [info]: Home page welcome is visible
+2024-10-30T11:47:02+04:00 [info]: Navigated to Login page
+2024-10-30T11:47:02+04:00 [info]: Filled username
+2024-10-30T11:48:51+04:00 [info]: Navigated to Login page
+2024-10-30T11:48:51+04:00 [info]: Filled username
+2024-10-30T11:48:51+04:00 [info]: Filled password
+2024-10-30T11:48:53+04:00 [info]: Home page welcome is visible
+2024-10-30T11:54:08+04:00 [info]: Test test login Started
+2024-10-30T11:54:14+04:00 [info]: Navigated to Login page
+2024-10-30T11:54:14+04:00 [info]: Filled username
+2024-10-30T11:54:14+04:00 [info]: Filled password
+2024-10-30T11:54:16+04:00 [info]: Test test login Completed
+2024-10-30T11:54:16+04:00 [info]: Home page welcome is visible
+2024-10-30T13:37:24+04:00 [info]: Test test login Started
+2024-10-30T13:37:25+04:00 [info]: Navigated to Login page
+2024-10-30T13:37:25+04:00 [info]: Filled username
+2024-10-30T13:37:25+04:00 [info]: Filled password
+2024-10-30T13:37:25+04:00 [info]: Test test login Completed
+2024-10-30T13:37:25+04:00 [error]: Home page welcome does not exist: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m()[22m
+
+Locator: locator('.verticalNavMenuListItem .appItemLabel').filter({ hasText: 'Service' })
+Expected: visible
+Received: <element(s) not found>
+Call log:
+  [2m- expect.toBeVisible with timeout 15000ms[22m
+[2m  - waiting for locator('.verticalNavMenuListItem .appItemLabel').filter({ hasText: 'Service' })[22m
+
+2024-10-30T13:39:58+04:00 [info]: Encryption completed. Updated .env file
+2024-10-30T13:40:48+04:00 [info]: Test test login Started
+2024-10-30T13:40:50+04:00 [info]: Navigated to Login page
+2024-10-30T13:40:50+04:00 [info]: Filled username
+2024-10-30T13:40:50+04:00 [info]: Filled password
+2024-10-30T13:40:52+04:00 [info]: Test test login Completed
+2024-10-30T13:40:53+04:00 [error]: Home page welcome does not exist: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m()[22m
+
+Locator: locator('.verticalNavMenuListItem .appItemLabel').filter({ hasText: 'Service' })
+Expected: visible
+Received: <element(s) not found>
+Call log:
+  [2m- expect.toBeVisible with timeout 15000ms[22m
+[2m  - waiting for locator('.verticalNavMenuListItem .appItemLabel').filter({ hasText: 'Service' })[22m
+
+2024-10-30T13:44:58+04:00 [info]: Test test login Started
+2024-10-30T13:45:00+04:00 [info]: Navigated to Login page
+2024-10-30T13:45:00+04:00 [info]: Filled username
+2024-10-30T13:45:00+04:00 [info]: Filled password
+2024-10-30T13:45:01+04:00 [info]: Test test login Completed
+2024-10-30T13:45:01+04:00 [error]: Home page welcome does not exist: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m()[22m
+
+Locator: getByTitle('Service')
+Expected: visible
+Received: <element(s) not found>
+Call log:
+  [2m- expect.toBeVisible with timeout 15000ms[22m
+[2m  - waiting for getByTitle('Service')[22m
+
+2024-10-30T13:48:11+04:00 [info]: Test test login Started
+2024-10-30T13:48:12+04:00 [info]: Navigated to Login page
+2024-10-30T13:48:12+04:00 [info]: Filled username
+2024-10-30T13:48:12+04:00 [info]: Filled password
+2024-10-30T13:48:14+04:00 [info]: Test test login Completed
+2024-10-30T13:48:15+04:00 [error]: Service Title not exist: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m()[22m
+
+Locator: getByTitle('Service')
+Expected: visible
+Received: <element(s) not found>
+Call log:
+  [2m- expect.toBeVisible with timeout 15000ms[22m
+[2m  - waiting for getByTitle('Service')[22m
+
+2024-10-30T13:49:08+04:00 [info]: Test test login Started
+2024-10-30T13:49:10+04:00 [info]: Navigated to Login page
+2024-10-30T13:49:10+04:00 [info]: Filled username
+2024-10-30T13:49:10+04:00 [info]: Filled password
+2024-10-30T13:51:53+04:00 [info]: Test test login Completed
+2024-10-30T13:51:53+04:00 [error]: Service Title not exist: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m()[22m
+
+Locator: getByTitle('Service')
+Expected: visible
+Received: <element(s) not found>
+Call log:
+  [2m- expect.toBeVisible with timeout 15000ms[22m
+[2m  - waiting for getByTitle('Service')[22m
+
+2024-10-30T13:56:58+04:00 [info]: Test test login Started
+2024-10-30T13:56:59+04:00 [info]: Navigated to Login page
+2024-10-30T13:57:00+04:00 [info]: Filled username
+2024-10-30T13:57:00+04:00 [info]: Filled password
+2024-10-30T13:57:01+04:00 [info]: Clicked Login button
+2024-10-30T13:57:01+04:00 [info]: Test test login Completed
+2024-10-30T13:57:06+04:00 [error]: Service Title not exist: Error: expect.toBeVisible: Target page, context or browser has been closed
+2024-10-30T14:03:03+04:00 [info]: Test test login Started
+2024-10-30T14:03:05+04:00 [info]: Navigated to Login page
+2024-10-30T14:03:05+04:00 [info]: Filled username
+2024-10-30T14:03:05+04:00 [info]: Filled password
+2024-10-30T14:03:07+04:00 [info]: Clicked Login button
+2024-10-30T14:03:07+04:00 [info]: Test test login Completed
+2024-10-30T14:03:08+04:00 [error]: Service Title not exist: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m()[22m
+
+Locator: locator('.verticalNavMenuListItem .appItemLabel').filter({ hasText: 'Service' })
+Expected: visible
+Received: <element(s) not found>
+Call log:
+  [2m- expect.toBeVisible with timeout 15000ms[22m
+[2m  - waiting for locator('.verticalNavMenuListItem .appItemLabel').filter({ hasText: 'Service' })[22m
+
+2024-10-30T14:04:08+04:00 [info]: Test test login Started
+2024-10-30T14:04:09+04:00 [info]: Navigated to Login page
+2024-10-30T14:04:09+04:00 [info]: Filled username
+2024-10-30T14:04:09+04:00 [info]: Filled password
+2024-10-30T14:04:11+04:00 [info]: Clicked Login button
+2024-10-30T14:04:11+04:00 [info]: Test test login Completed
+2024-10-30T14:04:12+04:00 [error]: Service Title not exist: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m()[22m
+
+Locator: locator('.verticalNavMenuListItem .appItemLabel').filter({ hasText: 'Service' })
+Expected: visible
+Received: <element(s) not found>
+Call log:
+  [2m- expect.toBeVisible with timeout 15000ms[22m
+[2m  - waiting for locator('.verticalNavMenuListItem .appItemLabel').filter({ hasText: 'Service' })[22m
+
+2024-10-30T14:06:57+04:00 [info]: Test test login Started
+2024-10-30T14:06:57+04:00 [info]: Navigated to Login page
+2024-10-30T14:06:57+04:00 [info]: Filled username
+2024-10-30T14:06:57+04:00 [info]: Filled password
+2024-10-30T14:06:58+04:00 [info]: Clicked Login button
+2024-10-30T14:06:58+04:00 [info]: Test test login Completed
+2024-10-30T14:06:59+04:00 [error]: Service Title not exist: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m()[22m
+
+Locator: locator('.verticalNavMenuListItem .appItemLabel').getByText('Service')
+Expected: visible
+Received: <element(s) not found>
+Call log:
+  [2m- expect.toBeVisible with timeout 15000ms[22m
+[2m  - waiting for locator('.verticalNavMenuListItem .appItemLabel').getByText('Service')[22m
+
+2024-10-30T14:07:38+04:00 [info]: Test test login Started
+2024-10-30T14:07:39+04:00 [info]: Navigated to Login page
+2024-10-30T14:07:39+04:00 [info]: Filled username
+2024-10-30T14:07:39+04:00 [info]: Filled password
+2024-10-30T14:07:50+04:00 [info]: Clicked Login button
+2024-10-30T14:08:01+04:00 [info]: Test test login Completed
+2024-10-30T14:08:02+04:00 [info]: Service title .verticalNavMenuListItem .appItemLabel is visible
+2024-10-30T14:13:10+04:00 [info]: Test test login Started
+2024-10-30T14:13:11+04:00 [info]: Navigated to Login page
+2024-10-30T14:13:11+04:00 [info]: Filled username
+2024-10-30T14:13:11+04:00 [info]: Filled password
+2024-10-30T14:13:12+04:00 [info]: Clicked Login button
+2024-10-30T14:13:12+04:00 [info]: Test test login Completed
+2024-10-30T14:14:45+04:00 [info]: Test test login Started
+2024-10-30T14:14:46+04:00 [info]: Navigated to Login page
+2024-10-30T14:14:46+04:00 [info]: Filled username
+2024-10-30T14:14:46+04:00 [info]: Filled password
+2024-10-30T14:14:47+04:00 [info]: Clicked Login button
+2024-10-30T14:14:47+04:00 [info]: Test test login Completed
+2024-10-30T14:14:47+04:00 [error]: Service Title not exist: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m()[22m
+
+Locator: locator('.verticalNavMenuListItem .appItemLabel').getByText('Service')
+Expected: visible
+Received: <element(s) not found>
+Call log:
+  [2m- expect.toBeVisible with timeout 15000ms[22m
+[2m  - waiting for locator('.verticalNavMenuListItem .appItemLabel').getByText('Service')[22m
+
+2024-10-30T14:17:41+04:00 [info]: Test test login Started
+2024-10-30T14:17:43+04:00 [info]: Navigated to Login page
+2024-10-30T14:17:43+04:00 [info]: Filled username
+2024-10-30T14:17:43+04:00 [info]: Filled password
+2024-10-30T14:17:45+04:00 [info]: Clicked Login button
+2024-10-30T14:17:45+04:00 [info]: Test test login Completed
+2024-10-30T14:17:46+04:00 [error]: Service Title not exist: Error: expect.toBeVisible: Target page, context or browser has been closed
+2024-10-30T14:27:10+04:00 [info]: Test test login Started
+2024-10-30T14:27:11+04:00 [info]: Navigated to Login page
+2024-10-30T14:27:11+04:00 [info]: Filled username
+2024-10-30T14:27:11+04:00 [info]: Filled password
+2024-10-30T14:27:13+04:00 [info]: Clicked Login button
+2024-10-30T14:27:27+04:00 [info]: Test test login Completed
+2024-10-30T14:27:29+04:00 [info]: Service title .verticalNavMenuListItem .appItemLabel is visible
+2024-10-30T14:29:25+04:00 [info]: Test test login Started
+2024-10-30T14:29:27+04:00 [info]: Navigated to Login page
+2024-10-30T14:29:27+04:00 [info]: Filled username
+2024-10-30T14:29:27+04:00 [info]: Filled password
+2024-10-30T14:29:28+04:00 [info]: Clicked Login button
+2024-10-30T14:29:28+04:00 [info]: Test test login Completed
+2024-10-30T14:30:26+04:00 [info]: Test test login Started
+2024-10-30T14:30:27+04:00 [info]: Navigated to Login page
+2024-10-30T14:30:27+04:00 [info]: Filled username
+2024-10-30T14:30:27+04:00 [info]: Filled password
+2024-10-30T14:30:28+04:00 [info]: Clicked Login button
+2024-10-30T14:30:32+04:00 [info]: Service title .verticalNavMenuListItem .appItemLabel is visible
+2024-10-30T14:30:32+04:00 [info]: Test test login Completed
+2024-10-30T14:30:33+04:00 [info]: Test test login Started
+2024-10-30T14:30:34+04:00 [info]: Navigated to Login page
+2024-10-30T14:30:34+04:00 [info]: Filled username
+2024-10-30T14:30:34+04:00 [info]: Filled password
+2024-10-30T14:30:34+04:00 [info]: Clicked Login button
+2024-10-30T14:30:38+04:00 [info]: Service title .verticalNavMenuListItem .appItemLabel is visible
+2024-10-30T14:30:38+04:00 [info]: Test test login Completed
+2024-10-30T14:34:04+04:00 [info]: Test test login Started
+2024-10-30T14:34:06+04:00 [info]: Navigated to Login page
+2024-10-30T14:34:06+04:00 [info]: Filled username
+2024-10-30T14:34:06+04:00 [info]: Filled password
+2024-10-30T14:34:08+04:00 [info]: Clicked Login button
+2024-10-30T14:34:12+04:00 [info]: Service title .verticalNavMenuListItem .appItemLabel is visible
+2024-10-30T14:34:12+04:00 [info]: Test test login Completed
+2024-11-01T11:17:31+04:00 [info]: Test for Contact Creation Started
+2024-11-01T11:17:32+04:00 [info]: Navigated to Login page
+2024-11-01T11:17:32+04:00 [info]: Filled username
+2024-11-01T11:17:32+04:00 [info]: Filled password
+2024-11-01T11:17:34+04:00 [info]: Clicked Login button
+2024-11-01T11:17:39+04:00 [info]: Service title .verticalNavMenuListItem .appItemLabel is visible
+2024-11-01T11:22:07+04:00 [info]: Test for Contact Creation Started
+2024-11-01T11:22:08+04:00 [info]: Navigated to Login page
+2024-11-01T11:22:08+04:00 [info]: Filled username
+2024-11-01T11:22:08+04:00 [info]: Filled password
+2024-11-01T11:22:09+04:00 [info]: Clicked Login button
+2024-11-01T11:22:13+04:00 [info]: Service title .verticalNavMenuListItem .appItemLabel is visible
+2024-11-01T11:22:13+04:00 [info]: Contacts tab is visible
+2024-11-01T11:22:13+04:00 [info]: Contacts tab is clicked
+2024-11-01T11:22:13+04:00 [info]: New button is clicked
+2024-11-01T11:24:57+04:00 [info]: Test for Contact Creation Started
+2024-11-01T11:24:58+04:00 [info]: Navigated to Login page
+2024-11-01T11:24:58+04:00 [info]: Filled username
+2024-11-01T11:24:58+04:00 [info]: Filled password
+2024-11-01T11:24:59+04:00 [info]: Clicked Login button
+2024-11-01T11:25:03+04:00 [info]: Service title .verticalNavMenuListItem .appItemLabel is visible
+2024-11-01T11:25:03+04:00 [info]: Contacts tab is visible
+2024-11-01T11:25:03+04:00 [info]: Contacts tab is clicked
+2024-11-01T11:25:03+04:00 [info]: New button is clicked
+2024-11-01T11:31:06+04:00 [info]: Test for Contact Creation Started
+2024-11-01T11:31:08+04:00 [info]: Navigated to Login page
+2024-11-01T11:31:08+04:00 [info]: Filled username
+2024-11-01T11:31:08+04:00 [info]: Filled password
+2024-11-01T11:31:09+04:00 [info]: Clicked Login button
+2024-11-01T11:31:13+04:00 [info]: Service title .verticalNavMenuListItem .appItemLabel is visible
+2024-11-01T11:31:51+04:00 [info]: Test for Contact Creation Started
+2024-11-01T11:31:52+04:00 [info]: Navigated to Login page
+2024-11-01T11:31:52+04:00 [info]: Filled username
+2024-11-01T11:31:52+04:00 [info]: Filled password
+2024-11-01T11:31:53+04:00 [info]: Clicked Login button
+2024-11-01T11:31:56+04:00 [info]: Service title .verticalNavMenuListItem .appItemLabel is visible
+2024-11-01T11:31:57+04:00 [info]: Contacts tab is visible
+2024-11-01T11:32:18+04:00 [info]: Test for Contact Creation Started
+2024-11-01T11:32:18+04:00 [info]: Navigated to Login page
+2024-11-01T11:32:18+04:00 [info]: Filled username
+2024-11-01T11:32:18+04:00 [info]: Filled password
+2024-11-01T11:32:19+04:00 [info]: Clicked Login button
+2024-11-01T11:32:23+04:00 [info]: Service title .verticalNavMenuListItem .appItemLabel is visible
+2024-11-01T11:32:23+04:00 [info]: Contacts tab is visible
+2024-11-01T11:32:23+04:00 [info]: Contacts tab is clicked
+2024-11-01T11:32:23+04:00 [info]: New button is clicked
+2024-11-01T11:33:05+04:00 [info]: Test for Contact Creation Started
+2024-11-01T11:33:06+04:00 [info]: Navigated to Login page
+2024-11-01T11:33:06+04:00 [info]: Filled username
+2024-11-01T11:33:06+04:00 [info]: Filled password
+2024-11-01T11:33:07+04:00 [info]: Clicked Login button
+2024-11-01T11:33:11+04:00 [info]: Service title .verticalNavMenuListItem .appItemLabel is visible
+2024-11-01T11:33:11+04:00 [info]: Contacts tab is visible
+2024-11-01T11:33:14+04:00 [info]: Contacts tab is clicked
+2024-11-01T11:33:14+04:00 [info]: New button is clicked
+2024-11-01T11:33:15+04:00 [info]: First name is filled as Shiva
+2024-11-01T11:33:15+04:00 [info]: Last name is filled as Rudra
+2024-11-01T11:35:18+04:00 [info]: Test for Contact Creation Started
+2024-11-01T11:35:19+04:00 [info]: Navigated to Login page
+2024-11-01T11:35:19+04:00 [info]: Filled username
+2024-11-01T11:35:19+04:00 [info]: Filled password
+2024-11-01T11:35:20+04:00 [info]: Clicked Login button
+2024-11-01T11:35:24+04:00 [info]: Service title .verticalNavMenuListItem .appItemLabel is visible
+2024-11-01T11:35:24+04:00 [info]: Contacts tab is visible
+2024-11-01T11:35:27+04:00 [info]: Contacts tab is clicked
+2024-11-01T11:35:27+04:00 [info]: New button is clicked
+2024-11-01T11:35:28+04:00 [info]: First name is filled as Shiva
+2024-11-01T11:35:28+04:00 [info]: Last name is filled as Rudra
+2024-11-01T11:36:24+04:00 [info]: Test for Contact Creation Started
+2024-11-01T11:36:25+04:00 [info]: Navigated to Login page
+2024-11-01T11:36:25+04:00 [info]: Filled username
+2024-11-01T11:36:25+04:00 [info]: Filled password
+2024-11-01T11:36:26+04:00 [info]: Clicked Login button
+2024-11-01T11:36:29+04:00 [info]: Service title .verticalNavMenuListItem .appItemLabel is visible
+2024-11-01T11:36:29+04:00 [info]: Contacts tab is visible
+2024-11-01T11:36:33+04:00 [info]: Contacts tab is clicked
+2024-11-01T11:36:33+04:00 [info]: New button is clicked
+2024-11-01T11:36:34+04:00 [info]: First name is filled as Shiva
+2024-11-01T11:36:34+04:00 [info]: Last name is filled as Rudra
+2024-11-01T11:36:37+04:00 [info]: Account name selected as Ac01
+2024-11-01T11:36:37+04:00 [error]: Error clicking on Save button: Error: locator.click: Error: strict mode violation: getByRole('button', { name: 'Save' }) resolved to 2 elements:
+    1) <button type="button" part="button" kx-type="ripple" name="SaveAndNew" lwc-40a585din3p="" aria-disabled="false" kx-scope="button-neutral" class="slds-button slds-button_neutral">Save & New</button> aka getByRole('button', { name: 'Save & New' })
+    2) <button type="button" part="button" name="SaveEdit" kx-type="ripple" lwc-40a585din3p="" aria-disabled="false" kx-scope="button-brand" class="slds-button slds-button_brand">Save</button> aka getByRole('button', { name: 'Save', exact: true })
+
+Call log:
+  [2m- waiting for getByRole('button', { name: 'Save' })[22m
+
+2024-11-01T11:36:37+04:00 [info]: Save button is clicked
+2024-11-01T11:48:59+04:00 [info]: Test for Contact Creation Started
+2024-11-01T11:49:00+04:00 [info]: Navigated to Login page
+2024-11-01T11:49:00+04:00 [info]: Filled username
+2024-11-01T11:49:00+04:00 [info]: Filled password
+2024-11-01T11:49:01+04:00 [info]: Clicked Login button
+2024-11-01T11:49:06+04:00 [info]: Service title .verticalNavMenuListItem .appItemLabel is visible
+2024-11-01T11:49:06+04:00 [info]: Contacts tab is visible
+2024-11-01T11:49:09+04:00 [info]: Contacts tab is clicked
+2024-11-01T11:49:09+04:00 [info]: New button is clicked
+2024-11-01T11:49:10+04:00 [info]: First name is filled as Shiva
+2024-11-01T11:49:10+04:00 [info]: Last name is filled as Rudra
+2024-11-01T11:49:13+04:00 [info]: Account name selected as Ac01
+2024-11-01T11:49:16+04:00 [error]: Error clicking on Save button: Error: locator.click: Error: strict mode violation: getByRole('button', { name: 'Save' }) resolved to 2 elements:
+    1) <button type="button" part="button" kx-type="ripple" name="SaveAndNew" lwc-40a585din3p="" aria-disabled="false" kx-scope="button-neutral" class="slds-button slds-button_neutral">Save & New</button> aka getByRole('button', { name: 'Save & New' })
+    2) <button type="button" part="button" name="SaveEdit" kx-type="ripple" lwc-40a585din3p="" aria-disabled="false" kx-scope="button-brand" class="slds-button slds-button_brand">Save</button> aka getByRole('button', { name: 'Save', exact: true })
+
+Call log:
+  [2m- waiting for getByRole('button', { name: 'Save' })[22m
+
+2024-11-01T11:49:16+04:00 [info]: Save button is clicked
+2024-11-01T11:50:24+04:00 [info]: Test for Contact Creation Started
+2024-11-01T11:50:25+04:00 [info]: Navigated to Login page
+2024-11-01T11:50:25+04:00 [info]: Filled username
+2024-11-01T11:50:25+04:00 [info]: Filled password
+2024-11-01T11:50:26+04:00 [info]: Clicked Login button
+2024-11-01T11:50:30+04:00 [info]: Service title .verticalNavMenuListItem .appItemLabel is visible
+2024-11-01T11:50:30+04:00 [info]: Contacts tab is visible
+2024-11-01T11:50:33+04:00 [info]: Contacts tab is clicked
+2024-11-01T11:50:33+04:00 [info]: New button is clicked
+2024-11-01T11:50:34+04:00 [info]: First name is filled as Shiva
+2024-11-01T11:50:34+04:00 [info]: Last name is filled as Rudra
+2024-11-01T11:50:37+04:00 [info]: Account name selected as Ac01
+2024-11-01T11:50:37+04:00 [info]: Save button is clicked
+2024-11-01T11:50:39+04:00 [info]: New contact created and Shiva Rudra is visible
+2024-11-01T11:50:39+04:00 [info]: Test for Contact creation is completed
+2024-11-01T12:22:49+04:00 [info]: Test for Contact Creation Started
+2024-11-01T12:22:50+04:00 [info]: Navigated to Login page
+2024-11-01T12:22:51+04:00 [info]: Filled username
+2024-11-01T12:22:51+04:00 [info]: Filled password
+2024-11-01T12:22:52+04:00 [info]: Clicked Login button
+2024-11-01T12:22:57+04:00 [info]: Service title .verticalNavMenuListItem .appItemLabel is visible
+2024-11-01T12:22:57+04:00 [info]: Contacts tab is visible
+2024-11-01T12:23:00+04:00 [info]: Contacts tab is clicked
+2024-11-01T12:23:00+04:00 [info]: New button is clicked
+2024-11-01T12:23:01+04:00 [info]: First name is filled as John
+2024-11-01T12:23:02+04:00 [info]: Last name is filled as Doe
+2024-11-01T12:23:05+04:00 [info]: Account name selected as Ac01
+2024-11-01T12:23:05+04:00 [info]: Save button is clicked
+2024-11-01T12:23:07+04:00 [info]: New contact created and John Doe is visible
+2024-11-01T12:23:07+04:00 [info]: Test for Contact creation is completed
+2024-11-01T12:23:07+04:00 [info]: Test for Contact Creation Started
+2024-11-01T12:23:08+04:00 [info]: Navigated to Login page
+2024-11-01T12:23:08+04:00 [info]: Filled username
+2024-11-01T12:23:08+04:00 [info]: Filled password
+2024-11-01T12:23:09+04:00 [info]: Clicked Login button
+2024-11-01T12:23:12+04:00 [info]: Service title .verticalNavMenuListItem .appItemLabel is visible
+2024-11-01T12:23:12+04:00 [info]: Contacts tab is visible
+2024-11-01T12:23:15+04:00 [info]: Contacts tab is clicked
+2024-11-01T12:23:16+04:00 [info]: New button is clicked
+2024-11-01T12:23:16+04:00 [info]: First name is filled as Jane
+2024-11-01T12:23:16+04:00 [info]: Last name is filled as Doe
+2024-11-01T12:23:20+04:00 [info]: Account name selected as Ac01
+2024-11-01T12:23:20+04:00 [info]: Save button is clicked
+2024-11-01T12:23:22+04:00 [info]: New contact created and Jane Doe is visible
+2024-11-01T12:23:22+04:00 [info]: Test for Contact creation is completed
+2024-11-05T11:26:57+04:00 [info]: Test for Contact Creation Started
+2024-11-05T11:26:58+04:00 [info]: Test for Contact Creation Started
+2024-11-05T11:26:59+04:00 [info]: Navigated to Login page
+2024-11-05T11:26:59+04:00 [info]: Filled username
+2024-11-05T11:26:59+04:00 [info]: Filled password
+2024-11-05T11:26:59+04:00 [info]: Navigated to Login page
+2024-11-05T11:26:59+04:00 [info]: Filled username
+2024-11-05T11:27:00+04:00 [info]: Filled password
+2024-11-05T11:27:01+04:00 [info]: Clicked Login button
+2024-11-05T11:27:02+04:00 [info]: Clicked Login button
+2024-11-05T11:27:06+04:00 [info]: Service title .verticalNavMenuListItem .appItemLabel is visible
+2024-11-05T11:27:06+04:00 [info]: Contacts tab is visible
+2024-11-05T11:27:07+04:00 [info]: Service title .verticalNavMenuListItem .appItemLabel is visible
+2024-11-05T11:27:07+04:00 [info]: Contacts tab is visible
+2024-11-05T11:27:09+04:00 [info]: Contacts tab is clicked
+2024-11-05T11:27:09+04:00 [info]: New button is clicked
+2024-11-05T11:27:10+04:00 [info]: Contacts tab is clicked
+2024-11-05T11:27:10+04:00 [info]: New button is clicked
+2024-11-05T11:27:14+04:00 [info]: First name is filled as John
+2024-11-05T11:27:15+04:00 [info]: First name is filled as Jane
+2024-11-05T11:27:15+04:00 [info]: Last name is filled as Doe
+2024-11-05T11:27:15+04:00 [info]: Last name is filled as Doe
+2024-11-05T11:27:18+04:00 [info]: Account name selected as Ac01
+2024-11-05T11:27:18+04:00 [info]: Save button is clicked
+2024-11-05T11:27:18+04:00 [info]: Account name selected as Ac01
+2024-11-05T11:27:18+04:00 [info]: Save button is clicked
+2024-11-05T11:27:20+04:00 [info]: New contact created and Jane Doe is visible
+2024-11-05T11:27:20+04:00 [info]: Test for Contact creation is completed
+2024-11-05T11:27:20+04:00 [info]: New contact created and John Doe is visible
+2024-11-05T11:27:20+04:00 [info]: Test for Contact creation is completed
+2024-11-05T11:34:39+04:00 [info]: Test for Contact Creation Started
+2024-11-05T11:34:39+04:00 [info]: Test for Contact Creation Started
+2024-11-05T11:34:40+04:00 [info]: Navigated to Login page
+2024-11-05T11:34:40+04:00 [info]: Filled username
+2024-11-05T11:34:40+04:00 [info]: Filled password
+2024-11-05T11:34:40+04:00 [info]: Navigated to Login page
+2024-11-05T11:34:41+04:00 [info]: Filled username
+2024-11-05T11:34:41+04:00 [info]: Filled password
+2024-11-05T11:34:42+04:00 [info]: Clicked Login button
+2024-11-05T11:34:42+04:00 [info]: Clicked Login button
+2024-11-05T11:34:47+04:00 [info]: Service title .verticalNavMenuListItem .appItemLabel is visible
+2024-11-05T11:34:47+04:00 [info]: Contacts tab is visible
+2024-11-05T11:34:47+04:00 [info]: Service title .verticalNavMenuListItem .appItemLabel is visible
+2024-11-05T11:34:47+04:00 [info]: Contacts tab is visible
+2024-11-05T11:34:50+04:00 [info]: Contacts tab is clicked
+2024-11-05T11:34:50+04:00 [info]: Contacts tab is clicked
+2024-11-05T11:34:50+04:00 [info]: New button is clicked
+2024-11-05T11:34:50+04:00 [info]: New button is clicked
+2024-11-05T11:34:51+04:00 [info]: First name is filled as Jenny
+2024-11-05T11:34:51+04:00 [info]: First name is filled as David
+2024-11-05T11:34:51+04:00 [info]: Last name is filled as Doe
+2024-11-05T11:34:51+04:00 [info]: Last name is filled as Doe
+2024-11-05T11:34:54+04:00 [info]: Account name selected as Ac01
+2024-11-05T11:34:54+04:00 [info]: Save button is clicked
+2024-11-05T11:34:54+04:00 [info]: Account name selected as Ac01
+2024-11-05T11:34:54+04:00 [info]: Save button is clicked
+2024-11-05T11:34:56+04:00 [info]: New contact created and David Doe is visible
+2024-11-05T11:34:56+04:00 [info]: Test for Contact creation is completed
+2024-11-05T11:34:56+04:00 [info]: New contact created and Jenny Doe is visible
+2024-11-05T11:34:56+04:00 [info]: Test for Contact creation is completed
