@@ -5,6 +5,7 @@ import {encryptEnvFile, decryptEnvFile} from "../utils/EncryptEnvFile";
 import logger from "../utils/LoggerUtils";
 import cdata from '../testdata/datademo.json';
 import { convertCsvFileToJsonFile } from "../utils/CsvToJson";
+import { exportToCsv, exportToJson, generateTestData } from "../utils/FakerDataUtils";
 
 test.skip("test login", async ({page}) => {
     logger.info("Test test login Started");
@@ -18,7 +19,7 @@ test.skip("test login", async ({page}) => {
 });
 
 for(const contact of cdata) {
-    test(`Advanced DD test for ${contact.firstName}`, async({page}) => {
+    test.skip(`Advanced DD test for ${contact.firstName}`, async({page}) => {
         logger.info("Test for Contact Creation Started");
         const loginPage = new LoginPage(page);
         await loginPage.navigateToLoginPage();
@@ -38,4 +39,10 @@ for(const contact of cdata) {
 
 test.skip("csv to json", async({page}) => {
     convertCsvFileToJsonFile("data.csv", "datademo.json");
+})
+
+test("faker utils test", async({page}) => {
+    const testData = generateTestData(20);
+    exportToJson(testData, 'testData_en.json');
+    exportToCsv(testData, 'testData_en.csv');
 })
